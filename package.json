@@ -1,8 +1,8 @@
 {
-  "name": "webpackpro",
+  "name": "webpackro",
   "version": "1.0.0",
   "description": "This is my first project base on webpack!",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +14,12 @@
   "author": "like/李柯",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FEADMilk/webpackPro/issues"
+    "url": "https://github.com/FEADMilk/webpackPro/issues",
+    "email": "like0829@outlook.com"
   },
   "homepage": "https://github.com/FEADMilk/webpackPro#readme",
   "dependencies": {
+    "lodash": "^4.17.21",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
